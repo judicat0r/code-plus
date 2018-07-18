@@ -14,7 +14,7 @@ public class Main {
         for(int i = 0; i < n; i++)
         	a[i] = scan.nextInt();
         int ans = go(0, 0);
-        if(ans == 0)
+        if(ans == 0) 
         	System.out.println(-1);
         else
         	System.out.println(ans);
